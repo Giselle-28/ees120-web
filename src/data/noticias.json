@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "titulo": "Inicio del Ciclo Lectivo 2025",
+    "fecha": "2025-03-05",
+    "descripcion": "Damos la bienvenida a estudiantes y familias al inicio del nuevo ciclo lectivo.",
+    "imagen": "/img/noticia1.jpg"
+  },
+  {
+    "id": 2,
+    "titulo": "Jornada Institucional Docente",
+    "fecha": "2025-04-12",
+    "descripcion": "Espacio de formación y reflexión para el equipo docente de la institución.",
+    "imagen": "/img/noticia2.jpg"
+  },
+  {
+    "id": 3,
+    "titulo": "Acto Día de la Independencia",
+    "fecha": "2025-07-09",
+    "descripcion": "Conmemoración del Día de la Independencia con la participación de toda la comunidad.",
+    "imagen": "/img/noticia3.jpg"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "fecha": "2025-03-08",
+    "titulo": "Inicio de Clases",
+    "tipo": "institucional"
+  },
+  {
+    "id": 2,
+    "fecha": "2025-03-24",
+    "titulo": "Feriado Nacional",
+    "tipo": "feriado"
+  },
+  {
+    "id": 3,
+    "fecha": "2025-04-10",
+    "titulo": "Reunión de Familias",
+    "tipo": "reunion"
+  }
+]

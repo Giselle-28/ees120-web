@@ -1,0 +1,118 @@
+.hero {
+  position: relative;
+  height: 70vh;
+  overflow: hidden;
+}
+
+/* FONDOS */
+.hero-bg {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  transition: opacity 1.5s ease-in-out;
+}
+
+.hero-bg.active {
+  opacity: 1;
+}
+
+/* OVERLAY */
+.hero-overlay {
+  position: relative;
+  z-index: 2;
+  height: 100%;
+  background: linear-gradient(
+    rgba(26, 26, 26, 0.65),
+    rgba(26, 26, 26, 0.65)
+  );
+  display: flex;
+  align-items: center;
+}
+
+/* CONTENIDO */
+.hero-content {
+  text-align: center;
+  color: #ffffff;
+}
+
+/* LOGO */
+.hero-logo {
+  width: 90px;
+  margin-bottom: 1rem;
+  animation: fadeDown 1.2s ease forwards;
+}
+
+/* TEXTO */
+.hero-title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  animation: fadeUp 1.4s ease forwards;
+}
+
+.hero-subtitle {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  animation: fadeUp 1.6s ease forwards;
+}
+
+/* BOTÓN */
+.hero-btn {
+  display: inline-block;
+  background-color: #d4af37;
+  color: #1a1a1a;
+  padding: 0.75rem 2rem;
+  border-radius: 30px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.hero-btn:hover {
+  background-color: #c5a431;
+  transform: translateY(-2px);
+}
+
+/* TEXTO CONFIANZA */
+.hero-trust {
+  display: block;
+  margin-top: 1.5rem;
+  font-size: 0.85rem;
+  opacity: 0.9;
+}
+
+/* ANIMACIONES */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .hero {
+    height: 60vh;
+  }
+
+  .hero-title {
+    font-size: 2rem;
+  }
+}
